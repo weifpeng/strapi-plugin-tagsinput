@@ -176,7 +176,7 @@ const Tags = ({
           style={{ position: "relative" }}
           ref={inputEle}
         >
-          {label && <Field.Label action={labelAction}>{formatMessage({ id: label, defaultMessage: "Tags" })}</Field.Label>}
+          {label && <Field.Label action={labelAction}>{formatMessage({ id: label, defaultMessage: label })}</Field.Label>}
           <ThemeStyle />
           <Flex direction="column">
             <TagsInput
